@@ -1,0 +1,118 @@
+.teammatess {
+    width: 32%;
+    border-radius: 5px;
+    border: 1px solid var(--color-white-blue, #F0F5FF);
+    padding: 35px;
+    display: flex;
+    margin-top: 40px;
+}
+.team-mate-page-only{ flex-wrap: wrap;}
+.team-mate-page-only {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-mate-page-only .teammate-info h3{ color: var(--color-tertiary-grey-mid, #787D8C);
+   
+    font-family: Oxygen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+.team-mate-page-only .sales-link{ color: var(--color-tertiary-grey-light, #B4B9C8);
+   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    text-decoration-line: underline;}
+.team-mate-page-only .teammate-img{ height: 80px; width: 80px;}
+
+.team-matew-page{ margin-top: 20px; margin-bottom: -10px;}
+.team-matew-page h2{ color: var(--color-secondary-dark-mid, #3C4150);
+
+  
+    font-size: 24px;
+   
+    font-weight: 700;
+    }
+.team-matew-page .right_head{ color: var(--color-tertiary-grey-mid, #787D8C);
+
+  
+    font-family: Roboto;
+    font-size: 16px;
+  
+    font-weight: 700;
+}
+.custom-pagination{ text-align: center; margin-top: 30px; margin-bottom: 20px;}
+.custom-pagination ul{ margin: 0px; padding: 0px; }
+.custom-pagination ul li{ display: inline; color: var(--color-tertiary-grey-light, #B4B9C8);
+    text-align: center;
+   font-family: Roboto;
+    font-size: 16px;
+      font-weight: 700;
+    line-height: 28px; padding: 0px 25px; cursor: pointer;}
+
+.rotate_img{ rotate: 180deg;}
+
+.active-page{ color: #fff; border-radius: 41px;
+    background: var(--color-secondary-dark, #141928); height: 32px; padding: 10px 22px !important;}
+
+
+
+
+
+    @media (min-width: 768px) and (max-width:1279px) {
+        .teammatess {
+            width: 49%;
+           
+            padding: 11px;
+           
+            margin-top: 15px;
+        }
+        .heading_inline.d-flex.team-matew-page {
+            margin-top: 16px;
+            margin-bottom: 10px;
+        }
+        .team-mate-page-only .teammate-info h3{ font-size: 16px;}
+        .custom-pagination ul li {
+            
+            font-size: 14px;
+           
+            padding: 0px 12px;
+            
+        }
+        
+    }
+
+
+
+    @media (min-width: 320px) and (max-width:767px) {
+        .team-matew-page .right_head {
+           
+          
+            font-size: 14px;
+            
+        }
+
+        .teammatess {
+            width: 100%;
+           
+            padding: 7px;
+           
+            margin-top: 14px;
+        }
+        .heading_inline.d-flex.team-matew-page {
+            margin-top: 16px;
+            margin-bottom: 10px;
+        }
+        .team-mate-page-only .teammate-info h3{ font-size: 16px;}
+        .custom-pagination ul li {
+            
+            font-size: 14px;
+           
+            padding: 0px 12px;
+            
+        }
+
+    }
